@@ -1,0 +1,7 @@
+0.7.1.
+- Added line and comment to set a default value for start to use the daemon with any WOL-client that can send a standard Magic Packet to wake up by MAC address
+
+General
+- Before enabling the service, test the script on the command line! (make it executable)
+- Stop the running process with CTRL-Z
+- Kill the process (otherwise no further instance can be started due to used address)
